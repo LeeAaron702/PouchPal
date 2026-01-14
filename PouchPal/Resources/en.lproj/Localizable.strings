@@ -1,0 +1,134 @@
+/* 
+  Localizable.strings
+  PouchPal
+
+  Created by Lee Seaver on 1/13/26.
+  
+  Base English localization for PouchPal
+*/
+
+// MARK: - General
+"app_name" = "PouchPal";
+"cancel" = "Cancel";
+"done" = "Done";
+"save" = "Save";
+"delete" = "Delete";
+"edit" = "Edit";
+"back" = "Back";
+"continue" = "Continue";
+"ok" = "OK";
+
+// MARK: - Tab Bar
+"tab_home" = "Home";
+"tab_history" = "History";
+"tab_insights" = "Insights";
+"tab_settings" = "Settings";
+
+// MARK: - Home View
+"home_title" = "PouchPal";
+"home_today" = "today";
+"home_add_pouch" = "Add pouch";
+"home_add_pouch_hint" = "Tap to log one pouch. Long press for quick add options.";
+"home_undo" = "Undo";
+"home_of_limit" = "%d of %d";
+
+// MARK: - Quick Add
+"quick_add_1" = "Add 1";
+"quick_add_2" = "Add 2";
+"quick_add_3" = "Add 3";
+
+// MARK: - History View
+"history_title" = "History";
+"history_7_days" = "7 Days";
+"history_30_days" = "30 Days";
+"history_empty_title" = "No entries yet";
+"history_empty_subtitle" = "Start tracking to see your history here.";
+
+// MARK: - Insights View
+"insights_title" = "Insights";
+"insights_7_day_average" = "7-Day Average";
+"insights_30_day_average" = "30-Day Average";
+"insights_per_day" = "%@/day";
+"insights_statistics" = "Statistics";
+"insights_total_all_time" = "Total (All Time)";
+"insights_this_week" = "This Week";
+"insights_this_month" = "This Month";
+
+// MARK: - Settings View
+"settings_title" = "Settings";
+"settings_limits" = "Limits";
+"settings_enable_daily_limit" = "Enable Daily Limit";
+"settings_daily_limit" = "Daily Limit";
+"settings_approach_warning" = "Approach Warning";
+"settings_approach_description" = "Notify when reaching %d%% of limit";
+"settings_limits_footer" = "Set a daily limit to track your progress throughout the day.";
+
+"settings_notifications" = "Notifications";
+"settings_enable_notifications" = "Enable Notifications";
+"settings_approaching_limit" = "Approaching Limit";
+"settings_limit_reached" = "Limit Reached";
+"settings_daily_summary" = "Daily Summary";
+"settings_summary_time" = "Summary Time";
+"settings_notifications_disabled" = "Notifications Disabled";
+"settings_open_settings" = "Settings";
+"settings_notifications_footer" = "Notifications are optional and require your permission.";
+
+"settings_unit_labels" = "Unit Labels";
+"settings_singular" = "Singular";
+"settings_plural" = "Plural";
+"settings_unit_labels_footer" = "Customize how your entries are labeled.";
+
+"settings_data" = "Data";
+"settings_export_csv" = "Export Data (CSV)";
+"settings_delete_all_data" = "Delete All Data";
+"settings_delete_confirmation_title" = "Delete All Data?";
+"settings_delete_confirmation_message" = "This will permanently delete all your logged entries. This action cannot be undone.";
+
+"settings_about" = "About";
+"settings_version" = "Version";
+"settings_privacy_policy" = "Privacy Policy";
+"settings_support" = "Support";
+
+// MARK: - Onboarding
+"onboarding_welcome_title" = "Welcome to PouchPal";
+"onboarding_welcome_subtitle" = "Track your daily usage with a simple tap.\nUnderstand your patterns over time.";
+"onboarding_get_started" = "Get Started";
+
+"onboarding_unit_title" = "What are you tracking?";
+"onboarding_unit_subtitle" = "Customize the label for what you're counting.";
+"onboarding_unit_singular_placeholder" = "pouch";
+"onboarding_unit_plural_placeholder" = "pouches";
+
+"onboarding_limit_title" = "Set a Daily Goal";
+"onboarding_limit_subtitle" = "Optional: Set a limit to help you stay on track.";
+"onboarding_limit_skip" = "Skip for now";
+
+"onboarding_privacy_title" = "Your Privacy Matters";
+"onboarding_privacy_subtitle" = "All your data stays on your device.\nWe never collect or share your information.";
+
+// MARK: - Notifications
+"notification_approaching_limit_title" = "Approaching Daily Limit";
+"notification_approaching_limit_body" = "You've used %d of %d pouches today.";
+"notification_limit_reached_title" = "Daily Limit Reached";
+"notification_limit_reached_body" = "You've reached your daily limit of %d pouches.";
+"notification_daily_summary_title" = "Daily Summary";
+"notification_daily_summary_body" = "Tap to see your daily pouch count.";
+
+// MARK: - Widget
+"widget_today" = "today";
+"widget_of" = "of %d";
+
+// MARK: - Accessibility
+"accessibility_progress_ring" = "Progress: %d percent of daily limit";
+"accessibility_add_button" = "Add pouch";
+"accessibility_undo_button" = "Undo last entry";
+"accessibility_entry_row" = "%d %@ at %@";
+
+// MARK: - Errors
+"error_generic" = "Something went wrong. Please try again.";
+"error_export_failed" = "Failed to export data.";
+"error_notification_permission" = "Please enable notifications in Settings.";
+
+// MARK: - Units
+"unit_pouch_singular" = "pouch";
+"unit_pouch_plural" = "pouches";
